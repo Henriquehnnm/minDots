@@ -1,0 +1,199 @@
+/*
+   ____ _            _  __ _          _ 
+ / ___| | ___  _ __(_)/ _(_) ___  __| |
+| |  _| |/ _ \| '__| | |_| |/ _ \/ _` |
+| |_| | | (_) | |  | |  _| |  __/ (_| |
+ \____|_|\___/|_|  |_|_| |_|\___|\__,_|
+                                       
+ __  __                                      _ 
+|  \/  | ___  _   _ ___  ___ _ __   __ _  __| |
+| |\/| |/ _ \| | | / __|/ _ \ '_ \ / _` |/ _` |
+| |  | | (_) | |_| \__ \  __/ |_) | (_| | (_| |
+|_|  |_|\___/ \__,_|___/\___| .__/ \__,_|\__,_|
+                            |_|                
+
+VSCodium Config By [Henriquehnnm](https://github.com/Henriquehnnm)
+*/
+
+{
+  "telemetry.telemetryLevel": "off",
+  "zenMode.fullScreen": false,
+  "zenMode.centerLayout": false,
+  "editor.fontFamily": "GeistMono Nerd Font",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "GeistMono Nerd Font",
+  "window.autoDetectColorScheme": true,
+  "editor.codeLensFontSize": 13,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.75,
+  "editor.suggestFontSize": 15,
+  "editor.suggestLineHeight": 28,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1,
+  "debug.console.fontSize": 10,
+  "editor.minimap.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "editor.lineNumbers": "off",
+  "workbench.editor.showTabs": "none",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "breadcrumbs.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.lightbulb.enabled": "off",
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.renderControlCharacters": false,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "volar.icon.splitEditors": false,
+  "diffEditor.renderSideBySide": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.snippetSuggestions": "bottom",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.insertFinalNewline": true,
+  "window.newWindowDimensions": "inherit",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorCustomizations": {
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.border": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.background": "#0000",
+    "editorGutter.modifiedBackground": "#0000",
+    "editorGutter.addedBackground": "#0000",
+    "editorGutter.deletedBackground": "#0000"
+  },
+  "git.decorations.enabled": false,
+  "search.smartCase": true,
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/vendor/*": true,
+    "**/public/*": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+  },
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.wordWrap": "on",
+  "editor.tabCompletion": "on",
+  "explorer.openEditors.visible": 1,
+  // Files to display
+  "files.enableTrash": false,
+  "files.exclude": {
+    ".cache-loader/": true,
+    ".gitattributes": true,
+    ".gitkeep": true,
+    ".travis.yml": true,
+    ".vercel": true,
+    ".vscode/": true,
+    ".venv/": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "coverage": true,
+    "acf-json": true,
+    "backend/vendor": true,
+    "CODE_OF_CONDUCT.md": true,
+    "config": false,
+    "package-lock.json": true,
+    "phpcs.xml": true,
+    ".editorconfig": true,
+    "prettier.config.js": true,
+    "yarn.lock": true,
+    "node_modules/": true,
+    ".gitignore": true,
+    ".output/node_modules/": false,
+    ".nuxt": true,
+    ".output": true,
+    "bun.lock": true,
+    "poetry.lock": true
+  },
+  "window.title": "",
+  "files.watcherExclude": {
+    "**/.output/**": true,
+    "**/.yarn/**": true,
+    "**/node_modules/**": true,
+    "backend/vendor/**": true,
+  },
+  "editor.semanticHighlighting.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  // Suggestions
+  "editor.inlineSuggest.enabled": true,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.quickSuggestions": {
+    "strings": true,
+  },
+  "editor.suggestSelection": "first",
+  "editor.suggest.showWords": false,
+  "emmet.showAbbreviationSuggestions": false,
+  "editor.guides.indentation": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "zenMode.showTabs": "single",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.stickyScroll.enabled": false,
+  "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+  "workbench.preferredDarkColorTheme": "Monokai Pro (Filter Spectrum)",
+
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 22,
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.profiles.linux": {
+    "fish": {
+      "path": "/usr/bin/fish",
+    },
+  },
+  "editor.formatOnSave": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.compactFolders": false,
+  "workbench.navigationControl.enabled": false,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "workbench.sideBar.location": "right",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
