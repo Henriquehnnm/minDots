@@ -51,7 +51,7 @@ if status is-interactive # Commands to run in interactive sessions can go here
     alias new-astro 'pnpm create astro@latest --add tailwind'
 
     # Bat
-    alias cat bat
+    alias cat 'bat --pager none'
 
     # Python
     function pp
