@@ -3,8 +3,10 @@ astro-build.astro-vscode
 bmalehorn.vscode-fish
 bradlc.vscode-tailwindcss
 esbenp.prettier-vscode
+fabiospampinato.vscode-todo-plus
 formulahendry.auto-rename-tag
 golang.go
+gruntfuggly.todo-tree
 mads-hartmann.bash-ide-vscode
 monokai.theme-monokai-pro-vscode
 ms-python.black-formatter
@@ -12,7 +14,9 @@ ms-python.debugpy
 ms-python.python
 ms-python.vscode-python-envs
 naumovs.color-highlight
+pkief.material-product-icons
 repreng.csv
+rust-lang.rust-analyzer
 tamasfe.even-better-toml
 usernamehw.errorlens
 vscodevim.vim
