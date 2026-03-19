@@ -131,7 +131,8 @@ VSCodium Config By [Henriquehnnm](https://github.com/Henriquehnnm)
     ".nuxt": true,
     ".output": true,
     "bun.lock": true,
-    "poetry.lock": true
+    "poetry.lock": true,
+    "Cargo.lock": true
   },
   "window.title": "${rootName}${separator}${appName}",
   "files.watcherExclude": {
@@ -200,8 +201,8 @@ VSCodium Config By [Henriquehnnm](https://github.com/Henriquehnnm)
   "window.commandCenter": false,
   "editor.matchBrackets": "never",
   "workbench.productIconTheme": "material-product-icons",
-  "material-icon-theme.hidesExplorerArrows": true,
   "workbench.iconTheme": "Monokai Classic Icons",
   "workbench.preferredDarkColorTheme": "Monokai Classic",
-  "workbench.colorTheme": "Monokai Classic"
+  "workbench.colorTheme": "Monokai Classic",
+  "workbench.tips.enabled": false
 }
